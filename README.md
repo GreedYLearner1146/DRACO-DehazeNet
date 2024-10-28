@@ -17,3 +17,15 @@ The link to our paper can be found at https://arxiv.org/abs/2410.14595
 
 # Citation Information
 
+Please cite the following preprint if it is useful in your research:
+
+G. Y. Lee, T. Dam, M. M. Ferdaus, D. P. Poenar, and V. Duong, “Draco-dehazenet: An efficient image dehazing network combining detail recovery
+and a novel contrastive learning paradigm,” arXiv preprint arXiv:2410.14595,2024
+
+@article{lee2024draco, \
+  title={DRACO-DehazeNet: An Efficient Image Dehazing Network Combining Detail Recovery and a Novel Contrastive Learning Paradigm}, \
+  author={Lee, Gao Yu and Dam, Tanmoy and Ferdaus, Md Meftahul and Poenar, Daniel Puiu and Duong, Vu}, \
+  journal={arXiv preprint arXiv:2410.14595}, \
+  year={2024}
+}
+
