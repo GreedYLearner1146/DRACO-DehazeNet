@@ -43,3 +43,7 @@ and a novel contrastive learning paradigm,” arXiv preprint arXiv:2410.14595,20
 
 # Relevant References
 
+[1] B. Li, W. Ren, D. Fu, D. Tao, D. Feng, W. Zeng, Z. Wang, Benchmarking single-image dehazing and beyond, IEEE Transactions on Image Processing 28 (1) (2018) 492–505. \
+[2] C. O. Ancuti, C. Ancuti, R. Timofte, Nh-haze: An image dehazing benchmark with non-homogeneous hazy and haze-free images, in Proceedings of the IEEE/CVF conference on computer vision and pattern recognition workshops, 2020, pp. 444–445. \
+[3] C. O. Ancuti, C. Ancuti, M. Sbert, R. Timofte, Dense-haze: A benchmark for image dehazing with dense-haze and haze-free images, in 2019 IEEE international conference on image processing (ICIP), IEEE, 2019, pp. 1014–1018. \
+[4] C. O. Ancuti, C. Ancuti, R. Timofte, C. De Vleeschouwer, O-haze: a dehazing benchmark with real hazy and haze-free outdoor images, in Proceedings of the IEEE conference on computer vision and pattern recognition workshops, 2018, pp. 754–762.
