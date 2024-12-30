@@ -28,7 +28,8 @@ NH-HAZE and DENSE-HAZE are comprised of generated real haze that are of non-homo
 1) Run the data_loading.py for loading any haze datasets of your choice. Mote that the train, valid and test images needs to be added manually into the arrays from the loaded images of your selected directory before execution of the code.
 2) Run DDIRB.py, which contains the function for the Dense Dilated Inverted Residual Block for direct dehazing.
 3) Run ATTDRN.py, which contains the function for the Attention Detail Recovert Network for detail recovery of the intermediate DDIRB dehazed outputs.
-4) Run DRACO-DehazeNet.py, which also contains the codes for the quadruplet network-based contrastive learning architecture, as well as the main overall DRACO-DehazeNet architecture. 
+4) Run DRACO-DehazeNet.py, which also contains the codes for the quadruplet network-based contrastive learning architecture, as well as the main overall DRACO-DehazeNet architecture.
+5) Run model training via contrastive_training.py.
 
 # Training weights 
 
