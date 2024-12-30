@@ -1,6 +1,6 @@
 ################################ Prediction #######################################################
 
-data_test_dehazed,_,_,_,_ = DPE_Net_contrastive.predict([np.asarray(test_hazy), np.asarray(test_clear)])
+data_test_dehazed,_,_,_,_ = DPE_Net_contrastive.predict([np.asarray(test_haze), np.asarray(test_clear)])
 
 ############################### Compute PSNR and SSIM. #######################################
 from math import log10, sqrt
