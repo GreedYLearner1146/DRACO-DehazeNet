@@ -25,6 +25,8 @@ NH-HAZE and DENSE-HAZE are comprised of generated real haze that are of non-homo
 
 # Code Instructions
 
+1) Run the data_loading.py for loading any haze datasets of your choice. Mote that the train, valid and test images needs to be added manually into the arrays from the loaded images of your selected directory before execution of the code.
+
 # Training weights 
 
 # Citation Information
