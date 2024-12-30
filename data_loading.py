@@ -74,3 +74,41 @@ valid_clear = []
 test_haze = []
 test_clear = []
 
+########################### E.g.: For O-HAZE ################################################### 
+
+
+path1 = '/.../# O-HAZY NTIRE 2018/hazy/'
+path2 = '/.../# O-HAZY NTIRE 2018/GT/'
+
+
+data_haze1 = load_images(path1)
+data_clear1 = load_images(path2)
+
+############# Following O-HAZE train-valid-split ################
+
+train_haze = []
+train_clear = []
+
+valid_haze = []
+valid_clear = []
+
+test_haze = []
+test_clear = []
+
+for h in data_haze1[0:35]:
+  train_haze.append(h)
+
+for i in data_clear1[0:35]:
+  train_clear.append(i)
+
+for j in data_haze1[35:40]:
+  valid_haze.append(j)
+
+for k in data_clear1[35:40]:
+  valid_clear.append(k)
+
+for m in data_haze1[40:45]:
+  test_haze.append(m)
+
+for n in data_clear1[40:45]:
+  test_clear.append(n)
