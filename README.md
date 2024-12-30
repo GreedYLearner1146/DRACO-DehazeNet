@@ -36,6 +36,8 @@ NH-HAZE and DENSE-HAZE are comprised of generated real haze that are of non-homo
 
 # Training weights 
 
+Weights (json, h5) for the benchmark datasets are found in the weights file folder.
+
 # Citation Information
 
 Please cite the following preprint if it is useful in your research:
