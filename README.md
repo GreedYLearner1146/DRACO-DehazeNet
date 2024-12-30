@@ -31,6 +31,7 @@ NH-HAZE and DENSE-HAZE are comprised of generated real haze that are of non-homo
 4) Run DRACO-DehazeNet.py, which also contains the codes for the quadruplet network-based contrastive learning architecture, as well as the main overall DRACO-DehazeNet architecture.
 5) Run VGG19.py, which contains the feature extraction procedure using VGG19 intermediate layer necessary for the quadruplet contrastive loss function contained in the main training codes.
 6) Run model training via contrastive_training.py.
+7) Run evaluate.py, which comprised of the model prediction on the test set, as well as the PSNR and SSIM metric evaluation codes.
 
 # Training weights 
 
