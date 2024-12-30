@@ -32,6 +32,7 @@ NH-HAZE and DENSE-HAZE are comprised of generated real haze that are of non-homo
 5) Run VGG19.py, which contains the feature extraction procedure using VGG19 intermediate layer necessary for the quadruplet contrastive loss function contained in the main training codes.
 6) Run model training via contrastive_training.py.
 7) Run evaluate.py, which comprised of the model prediction on the test set, as well as the PSNR and SSIM metric evaluation codes.
+8) Finally, to compute the flops required, run net_flops.py and use the syntax net_flops(model,table=True).
 
 # Training weights 
 
