@@ -14,7 +14,7 @@ opt = tf.keras.optimizers.Adam(learning_rate=1e-3)  # Optimizer.
 
 for epoch in range(num_epochs):
     print("starting epoch ",epoch)
-    for rp, rn in zip(train_clear, train_hazy):
+    for rp, rn in zip(train_clear, train_haze):
       with tf.GradientTape(persistent=True) as tape:      # Model gradient tape.
         ################################## Network ###########################################
         haze = tf.expand_dims(rn, axis=0)
