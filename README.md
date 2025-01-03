@@ -24,8 +24,11 @@ NH-HAZE and DENSE-HAZE are comprised of generated real haze that are of non-homo
 
 # Relevant Figures
 
-The DDIRB architecture:
+The DDIRB and ATTDRN architecture:
 ![DRACO_DehazeNet1](https://github.com/user-attachments/assets/56765abc-9241-44d2-bd82-f079bd48fcb7)
+
+The overall DRACO-DehazeNet architecture:
+![DRACO_DehazeNet2](https://github.com/user-attachments/assets/fc3b30ee-fc06-4336-8a72-4d06fe6ce2ac)
 
 
 # Code Instructions
