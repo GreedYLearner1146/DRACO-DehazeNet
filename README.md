@@ -22,6 +22,11 @@ NH-HAZE and DENSE-HAZE are comprised of generated real haze that are of non-homo
 | NH-HAZE [2] | 20.82 | 0.7582 | 
 | DENSE-HAZE [3] | 14.25 | 0.6028 | 
 
+# Relevant Figures
+
+The DDIRB architecture:
+![DRACO_DehazeNet1](https://github.com/user-attachments/assets/56765abc-9241-44d2-bd82-f079bd48fcb7)
+
 
 # Code Instructions
 
