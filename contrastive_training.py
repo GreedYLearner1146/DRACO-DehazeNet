@@ -5,7 +5,7 @@ from keras.optimizers import Adam
 from keras import layers
 
 ### Hyperparameters ###
-num_epochs = 80  
+num_epochs = 200 
 step = 0
 
 tf.keras.backend.clear_session() # Clear the session first.
@@ -31,7 +31,7 @@ for epoch in range(num_epochs):
         n_dist3 = tf.reduce_mean(tf.abs(intermediate_layer_model(anchor2) - intermediate_layer_model(anchor)), axis=-1)
         loss_Quadruplet = tf.reduce_mean((1/32)*(p_dist /(n_dist + n_dist2 + n_dist3 + 1e-7)))  # Contrast loss dehazing. Rmb to include the very small term in the denominator.
         ################################## Training ############################################
-        loss = loss_mae + 0.1*loss_Quadruplet       # combined loss function.
+        loss = loss_mae + ssim_loss + 0.1*loss_Quadruplet       # combined loss function.
       grads = tape.gradient(loss, DPE_Net_contrastive.trainable_variables)   # combined gradient.
       opt.apply_gradients(zip(grads, DPE_Net_contrastive.trainable_variables))  # combined opt.
       #################################### Steps for training ######################################
