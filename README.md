@@ -22,6 +22,22 @@ NH-HAZE and DENSE-HAZE are comprised of generated real haze that are of non-homo
 | NH-HAZE [2] | 20.82 | 0.7582 | 
 | DENSE-HAZE [3] | 14.25 | 0.6028 | 
 
+# Dehazed Figure Comparison
+
+RESIDE:
+![RESIDE_Comparisons](https://github.com/user-attachments/assets/b7536687-cfec-4949-b41d-9efe312c5dec)
+
+NH-HAZE:
+![NH_HAZE_DRACO_2](https://github.com/user-attachments/assets/b76a8ab3-9571-4765-bec6-5054a64eab57)
+
+O-HAZE:
+![O-Haze_DRACO_2](https://github.com/user-attachments/assets/5cb4bf42-d142-4eb9-ab32-9102e8b5ab67)
+
+DENSE-HAZE:
+![DENSE_HAZE_Comparisons](https://github.com/user-attachments/assets/d8875b75-0ea2-450f-9e15-3499ed953d45)
+
+
+
 # Relevant Figures
 
 The DDIRB and ATTDRN architecture:
