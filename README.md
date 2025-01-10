@@ -38,7 +38,7 @@ DENSE-HAZE:
 
 
 
-# Relevant Figures
+# Model Architecture Figures
 
 The DDIRB and ATTDRN architecture:
 ![DRACO_DehazeNet1](https://github.com/user-attachments/assets/56765abc-9241-44d2-bd82-f079bd48fcb7)
